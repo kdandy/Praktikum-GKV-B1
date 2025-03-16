@@ -1,8 +1,7 @@
-##
+## Author
 Nama: Dandy Faishal Fahmi
 NIM: 24060123140136 / LAB B1
 Program: membuat lengan dan jari bergerak
-##
 
 
 # Cara Kerja Kode Lengan 3D OpenGL
@@ -64,12 +63,3 @@ Program ini membuat simulasi lengan 3D dengan GLUT/OpenGL yang terdiri dari:
 
 ### Reset:
 - r : Reset ke posisi awal
-
-## Operasi Sumbu X,Y,Z dengan Keyboard
-
-- LEFT   → yRotation -= 5.0f   (rotasi ke kiri)
-- RIGHT  → yRotation += 5.0f   (rotasi ke kanan)
-- UP     → xRotation -= 5.0f   (rotasi ke atas)
-- DOWN   → xRotation += 5.0f   (rotasi ke bawah)
-- v      → zRotation += 5.0f   (rotasi searah jarum jam)
-- V      → zRotation -= 5.0f   (rotasi berlawanan jarum jam)
