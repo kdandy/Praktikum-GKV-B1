@@ -1,0 +1,17 @@
+## Author
+Nama: Dandy Faishal Fahmi
+NIM: 24060123140136 / LAB B1
+Program: membuat mobil 3D
+
+
+# Cara Kerja Kode Mobil 3D OpenGL
+
+
+- Q (untuk camera naik keatas)
+- E (untuk camera turun kebawah)
+- W (untuk camera maju kedepan)
+- S (untuk camera mundur kebelakang)
+- Panah Kiri (untuk camera kebawah)
+- Panah Kanan (untuk camera keatas)
+- Panah Atas (untuk camera maju kedepan)
+- Panah Bawah (untuk camera mundur kebelakang)

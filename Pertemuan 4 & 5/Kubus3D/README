@@ -1,0 +1,23 @@
+## Author
+Nama: Dandy Faishal Fahmi
+NIM: 24060123140136 / LAB B1
+Program: membuat mobil 3D
+
+# Pertanyaan :
+
+- 1. Jelaskan Lighting yang ada di OpenGL !
+     Jawaban : 
+     Lighting di OpenGL digunakan untuk memberi cahaya pada objek agar terlihat lebih nyata. 
+     Ada tiga jenis utama pencahayaan:
+     - Ambient Light: Cahaya merata di seluruh area, tanpa bayangan.
+     - Diffuse Light: Cahaya yang datang dari arah tertentu dan membuat objek terlihat lebih jelas dengan bayangan.
+     - Specular Light: Cahaya yang memantul dari permukaan halus, memberikan efek kilau.
+     
+- 2. Jelaskan apa kegunaan void lighting di atas !
+     Jawaban :
+     Fungsi lighting() digunakan untuk mengatur pencahayaan di dalam scene 3D. Fungsi ini mengaktifkan pencahayaan, mengatur posisi cahaya, dan mengonfigurasi material objek agar cahaya dapat diterapkan dengan benar.
+
+- 3. Analisislah Bagaimana Kubus, Grid dan pencahayaan tersebut dapat dibuat!
+     - Kubus: Dibuat menggunakan glutSolidCube(), dengan warna ditentukan menggunakan glColor3f().
+     - Grid: Dibuat menggunakan garis dengan glBegin(GL_LINES) untuk membuat grid sebagai latar belakang.
+     - Pencahayaan: Diatur dengan menggunakan fungsi OpenGL seperti glLightfv() untuk cahaya dan glMaterialfv() untuk material objek, sehingga objek dan grid   tampak lebih realistis dengan efek cahaya.
